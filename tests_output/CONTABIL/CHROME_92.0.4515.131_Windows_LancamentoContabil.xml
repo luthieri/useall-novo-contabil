@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="CONTABIL.LancamentoContabil"
+    errors="0" failures="1" hostname="" id="" package="CONTABIL" skipped="1"
+    tests="3" time="41.02" timestamp="">
+  
+    <testcase name="Loga no sistema" classname="CONTABIL.LancamentoContabil" time="28.84" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Acessa modulo contabil" classname="CONTABIL.LancamentoContabil" time="0.6930" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Cadastra o lançamento contabil" classname="CONTABIL.LancamentoContabil" time="11.48" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="A mensagem de erro a seguir apareceu na tela: ( Para contas que utilizem centro de custo, é necessário informar o rateio do centro de custo.
+Valor da conta (R$ 500,00) é diferente do rateio de centros de custos (R$ 0,00). Diferença R$ 500,00.
+ ) in 5000ms - expected &#34;is not present&#34; but got: &#34;present&#34; (5343ms)">    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Finaliza o teste" classname="CONTABIL.LancamentoContabil">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

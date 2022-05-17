@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name="IRPJ_CSLL.ResultadoContabil"
+    errors="1" failures="0" hostname="" id="" package="IRPJ_CSLL" skipped="0"
+    tests="5" time="44.75" timestamp="">
+  
+    <testcase name="Loga no sistema" classname="IRPJ_CSLL.ResultadoContabil" time="29.94" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Acessa modulo IRPJ" classname="IRPJ_CSLL.ResultadoContabil" time="1.692" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Cadastra Resultado Contabil" classname="IRPJ_CSLL.ResultadoContabil" time="7.534" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Exclui registro" classname="IRPJ_CSLL.ResultadoContabil" time="5.285" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;//input[starts-with(@id, &#39;lista-resultado-contabil-1245&#39;)]/ancestor::div[starts-with(@id, &#39;container-searchfield-multiselect&#39;)] //div[contains(text(), &#39;Resultado Contabil auto&#39;)]/ancestor::tr/descendant::div[@data-qtip=&#39;Remover&#39;]&gt;: " type="error"><![CDATA[
+    Error
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Finaliza o teste" classname="IRPJ_CSLL.ResultadoContabil" time="0.3000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;//input[starts-with(@id, &#39;lista-resultado-contabil-1245&#39;)]/ancestor::div[starts-with(@id, &#39;container-searchfield-multiselect&#39;)] //div[contains(text(), &#39;Resultado Contabil auto&#39;)]/ancestor::tr/descendant::div[@data-qtip=&#39;Remover&#39;]&gt;: 
+   {&#34;sessionId&#34;:&#34;16b620bcbb346b39229f8afe2912f839&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+{
+  "name": "automacontabil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Login": "nightwatch ./Testes/Login.js",
+    "HistoricoContabil": "nightwatch ./Testes/CONTABIL/HistoricoContabil.js",
+    "CadastroContaContabil": "nightwatch ./Testes/CONTABIL/CadastroContaContabil.js",
+    "LancamentoContabil": "nightwatch ./Testes/CONTABIL/LancamentoContabil.js",
+    "CentrodeCustos": "nightwatch ./Testes/CONTABIL/CentrodeCustos.js",
+    "LanctoContabilCC": "nightwatch ./Testes/CONTABIL/LanctoContabilCC.js",
+    "DespesasPgAntecipada": "nightwatch ./Testes/CONTABIL/DespesasPgAntecipada.js",
+    "TransferenciadeSaldos": "nightwatch ./Testes/CONTABIL/TransferenciadeSaldos.js",
+    "ApuracaoResultado": "nightwatch ./Testes/CONTABIL/ApuracaoResultado.js",
+    "SaldosContabeis": "nightwatch ./Testes/SPED_ECD/SaldosContabeis.js",
+    "PlanoReferencial": "nightwatch ./Testes/SPED_ECD/PlanoReferencial.js",
+    "LivrosContabeis": "nightWatch ./Testes/SPED_ECD/LivrosContabeis.js",
+    "ContasParteB": "nightwatch ./Testes/IRPJ_CSLL/ContasParteB.js",
+    "ParteB": "nightwatch ./Testes/IRPJ_CSLL/ParteB.js",
+    "BaseNegativaCSLL": "nightwatch ./Testes/IRPJ_CSLL/BaseNegativaCSLL.js",
+    "ResultadoContabil": "nightwatch ./Testes/IRPJ_CSLL/ResultadoContabil.js"
+  },
+  
+  "author": "luthi",
+  "license": "ISC",
+  "dependencies": {
+    "@useall/usealltestframework": "^1.7.4",
+    "base64-img": "^1.0.4",
+    "chromedriver": "^93.0.1",
+    "geckodriver": "^2.0.4",
+    "nightwatch-html-reporter": "^2.0.6",
+    "pretty": "^2.0.0",
+    "selenium": "^2.20.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^1.7.8",
+    "nightwatch-api": "^3.0.2"
+  }
+}

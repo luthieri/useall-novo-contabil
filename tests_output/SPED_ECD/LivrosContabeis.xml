@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="SPED_ECD.LivrosContabeis"
+    errors="1" failures="0" hostname="" id="" package="SPED_ECD" skipped="4"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 91&#34;
+       at endReadableNT (internal/streams/readable.js:1336:12)
+       at processTicksAndRejections (internal/process/task_queues.js:82:21)
+    </system-err>
+  
+
+    
+    <error message="An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 91&#34;"><![CDATA[
+      Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 91&#34;
+    at JsonWireProtocol.handleSessionCreateError (C:\Desenvolvimento\automacontabil\node_modules\nightwatch\lib\transport\transport.js:110:15)
+    at HttpRequest.&lt;anonymous&gt; (C:\Desenvolvimento\automacontabil\node_modules\nightwatch\lib\transport\transport.js:175:16)
+    at HttpRequest.emit (events.js:376:20)
+    at HttpResponse.&lt;anonymous&gt; (C:\Desenvolvimento\automacontabil\node_modules\nightwatch\lib\http\request.js:143:19)
+    at HttpResponse.emit (events.js:376:20)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Desenvolvimento\automacontabil\node_modules\nightwatch\lib\http\response.js:58:14)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Loga no sistema" classname="SPED_ECD.LivrosContabeis">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Acessa modulo contabil" classname="SPED_ECD.LivrosContabeis">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Acessa modulo sped" classname="SPED_ECD.LivrosContabeis">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cadastro do Livro Contabil" classname="SPED_ECD.LivrosContabeis">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

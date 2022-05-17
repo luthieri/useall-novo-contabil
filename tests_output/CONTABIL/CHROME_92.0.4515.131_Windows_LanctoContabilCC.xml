@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="CONTABIL.LanctoContabilCC"
+    errors="0" failures="1" hostname="" id="" package="CONTABIL" skipped="2"
+    tests="5" time="51.96" timestamp="">
+  
+    <testcase name="Loga no sistema" classname="CONTABIL.LanctoContabilCC" time="30.13" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Acessa modulo contabil" classname="CONTABIL.LanctoContabilCC" time="0.6490" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Cadastra o lançamento contabil" classname="CONTABIL.LanctoContabilCC" time="5.052" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Abre a tela de rateio de centro de custos" classname="CONTABIL.LanctoContabilCC" time="7.972" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fecha a tela de rateio de centro de custos" classname="CONTABIL.LanctoContabilCC" time="8.161" assertions="4">
+
+    
+
+    
+
+      <failure message="Não foi encontrado nenhum toast na tela - expected &#34;found&#34; but got: &#34;not found&#34; (5199ms)">    at processImmediate (internal/timers.js:462:21)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Abre a tela de rateio de centro de custos novamente (contrapartida)" classname="CONTABIL.LanctoContabilCC">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Finaliza o teste" classname="CONTABIL.LanctoContabilCC">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
